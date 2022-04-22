@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: service-gateway
+  config:
+    import: configserver:hhtp//localhost:8888
